@@ -1,0 +1,18 @@
+input_size: 224
+
+model:
+  name: vit_b_16  #efficientnet_b0,resnet18
+  pretrained: true
+  num_classes: 20
+  freeze_base: true
+
+
+train:
+  batch_size: 512 # 32 for pre-trained vit model
+  epochs: 30
+  lr: 0.0001 # decreases by a factor of 0.75 every 10 epochs (for vit -- both models)
+  optimizer: adam
+  weight_decay: 0.0005 # increases by a factor of 1.25 every 10 epochs (for vit -- both models)
+  val_split: 0.15
+  test_split: 0.15  
+  seed: 42
