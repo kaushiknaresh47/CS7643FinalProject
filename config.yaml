@@ -1,0 +1,15 @@
+# config.yaml
+
+model_name: resnet152
+batch_size: 256
+epochs: 15
+lr: 0.0001
+scheduler:
+  set_scheduler: True
+  patience: 5
+  factor: 0.5
+  min_lr: 0.000001
+num_classes: 20
+size: 224
+n_classes: 20
+weight_decay: 0.0001
