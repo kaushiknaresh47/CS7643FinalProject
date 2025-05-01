@@ -1,4 +1,5 @@
-# CS 7643 Final Project Spring 2025
+# Predicting Genre from Album Artwork - GenreVision: CS 7643
+## CS 7643 Final Project Spring 2025
 ## Team Members
 - Kaushik Naresh
 - Pranavi Nambi
